@@ -16,3 +16,16 @@ def find_month(desired_month):
 
 
 find_month(pi_day)
+
+# B : Store all of the locations where you have celebrated your birthday.
+birthday_location = {'disney world', 'movies', 'club', 'home', 'aquarium'}
+# Add three locations where you may celebrate your birthday in the future.
+birthday_location.update(['six flags', 'beach', 'camp ground'])
+# Iterate over the collection and print each one to the console.
+for location in birthday_location:
+    print(location)
+
+# C : Store sweepstakes contestants. Since a sweepstakes is a competition that contains a winner, there must be a way
+# to uniquely identify each contestant
+
+calss:
