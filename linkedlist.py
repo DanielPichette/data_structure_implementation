@@ -40,9 +40,10 @@ class LinkedList:
     # b : contains_node
 
     def contains_node(self, data):
-        n = self.head
-        while n.next is not None:
-            if n.data == data:
+        current_node = self.head
+        while current_node.next is not None:
+            if current_node.data == data:
                 print('value found')
                 return True
-            n = n.next
+            else:
+                current_node = current_node.next
