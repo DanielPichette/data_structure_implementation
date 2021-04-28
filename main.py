@@ -55,11 +55,27 @@ print(sweepstakes.winner)
 # PROBLEM 2
 # Use a list to store the dictionary of your immediate family members, with each index of the list storing
 # its own dictionary
-jackie = {'first name': 'Jackie', 'last name': 'Sanders', 'relation': 'sister'}
-leslie = {'first name': 'Leslie', 'last name': 'Pichette', 'relation': 'sister'}
-chaz = {'first name': 'Chaz', 'last name': 'Pichette', 'relation': 'brother'}
-brad = {'first name': 'Brad', 'last name': 'Sanders', 'relation': 'brother in-law'}
-geno = {'first name': 'Geno', 'last name': 'Pichette', 'relation': 'father'}
-betsy = {'first name': 'betsy', 'last name': 'Pichette', 'relation': 'mother'}
 
-family = [jackie, leslie, chaz, brad, betsy, geno]
+family = [
+    {'first name': 'Jackie',
+     'last name': 'Sanders',
+     'relation': 'sister'},
+    {'first name': 'Leslie',
+     'last name': 'Pichette',
+     'relation': 'sister'},
+    {'first name': 'Chaz',
+     'last name': 'Pichette',
+     'relation': 'brother'},
+    {'first name': 'Brad',
+     'last name': 'Sanders',
+     'relation': 'brother in-law'},
+    {'first name': 'Geno',
+     'last name': 'Pichette',
+     'relation': 'father'},
+    {'first name': 'betsy',
+     'last name': 'Pichette',
+     'relation': 'mother'}
+]
+
+# Problem 3 on main2 file.
+# Problem 4 on main2 file.

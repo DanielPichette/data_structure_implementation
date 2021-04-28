@@ -8,6 +8,7 @@ class BinarySearchTree:
     # member methods
     def insert_node(self, data):
         node = TreeNode(data)
+        # start at root
         current_node = self.root
         if self.root is None:
             self.root = node
@@ -29,4 +30,19 @@ class BinarySearchTree:
                     break
                 else:
                     current_node = current_node.left_child
+
+    def search_tree(self, data):
+        node = TreeNode(data)
+        current_node = self.root
+
+        while current_node is not None:
+            if node.data == current_node.data:
+                print('node found')
+                return current_node
+            elif node.data > current_node.data:
+                current_node = current_node.right_child
+            elif node.data < current_node.data:
+                current_node = current_node.left_child
+        else:
+            print('node not found')
 
